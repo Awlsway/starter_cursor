@@ -1,0 +1,15 @@
+---
+description: ANSVK data schema and contracts
+globs: "**/*"
+alwaysApply: false
+---
+
+# Data Rules
+
+## Brief introduction
+These rules keep data schema naming and model mapping consistent across projects. Use semantic names, explicit types, and migration-safe changes.
+
+- Use stable naming conventions for entities and fields
+- Prefer additive migrations; avoid destructive schema changes without migration notes
+- Keep DTO/domain mapping explicit in feature data layer
+- Document breaking data changes in `docs/data/`

@@ -1,0 +1,16 @@
+---
+description: ANSVK UI and token rules
+globs: "lib/**/*.dart"
+alwaysApply: false
+---
+
+# UI Rules
+
+## Brief introduction
+These rules enforce the ANSVK UI system so generated screens stay consistent. Use approved components, tokenized styles, and standard ERP layout patterns.
+
+- Use App* components from `lib/ui/components/`
+- No hardcoded color literals in feature code; use tokens/theme
+- Follow page patterns documented in `docs/ui/10 Page patterns.md`
+- Component API expectations documented in `docs/ui/8 Component contracts.md`
+- Keep Riverpod + go_router conventions from `docs/ui/9 Flutter UI conventions.md`

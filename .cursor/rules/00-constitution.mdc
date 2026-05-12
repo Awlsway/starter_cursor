@@ -1,0 +1,16 @@
+---
+description: ANSVK project-wide constitution
+globs: "**/*"
+alwaysApply: true
+---
+
+# ANSVK Constitution
+
+## Brief introduction
+This is the top-level non-negotiable rule set for AI-assisted development in this repo. It aligns architecture, data, and UI decisions so generated code remains consistent and maintainable.
+
+- Stack: Flutter + Riverpod + go_router
+- Source of truth for UI tokens: DB-first process, generated token code in `lib/ui/tokens/`
+- Prefer feature-first structure under `lib/features/`
+- Do not create parallel design systems or duplicate component families
+- Keep security basics: no secrets in git, no credentials in source files

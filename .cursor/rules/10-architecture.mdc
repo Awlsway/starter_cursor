@@ -1,0 +1,16 @@
+---
+description: ANSVK architecture guardrails
+globs: "lib/**/*.dart"
+alwaysApply: false
+---
+
+# Architecture Rules
+
+## Brief introduction
+Use these rules to keep module boundaries clean and predictable. New features should follow the same shape so AI output is reusable and easier to review.
+
+- Feature-first: `lib/features/<feature>/...`
+- Shared UI only in `lib/ui/components/`
+- Shared non-UI helpers only in `lib/core/`
+- New routes are registered in `lib/app/router.dart` using go_router
+- New state logic uses Riverpod providers/notifiers; do not mix Bloc in new code

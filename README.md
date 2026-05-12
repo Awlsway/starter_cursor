@@ -1,0 +1,33 @@
+# flutter-ansvk-starter
+
+## Brief introduction
+This private starter template gives you a repeatable foundation for solo Flutter projects using Riverpod + go_router, DB-first UI tokens, and strict Cursor AI guardrails to keep architecture, UI, and data conventions consistent.
+
+## What this template includes
+- Flutter app skeleton with feature-first structure
+- Riverpod + go_router baseline wiring
+- UI token and component starter files
+- Cursor rules for architecture, data, and UI governance
+- Reusable documentation in `docs/` and `docs/ui/`
+
+## Project structure
+```text
+lib/
+  app/
+  core/
+  features/
+  ui/
+.cursor/rules/
+docs/
+  ui/
+```
+
+## Getting started
+1. Open this repo in Cursor.
+2. Run `flutter pub get`.
+3. Start from `lib/main.dart`.
+4. Add your first feature under `lib/features/`.
+
+## Notes
+- This template is designed for solo development on one PC.
+- Keep DB token governance and UI contracts in sync with implementation.
