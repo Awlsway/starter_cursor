@@ -1,0 +1,35 @@
+# Misc
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+
+# IntelliJ / Android Studio
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# VS Code
+.vscode/
+
+# Flutter / Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub/
+/build/
+
+# Generated lockfiles policy:
+# Keep pubspec.lock for apps; remove this line if you prefer not committing it.
+# !pubspec.lock
+
+# OS / local env
+.env

@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-
-import '../ui/theme/app_theme.dart';
-import 'router.dart';
+import 'package:flutter_ansvk_starter/app/router.dart';
+import 'package:flutter_ansvk_starter/ui/theme/app_theme.dart';
 
 class AnsvkApp extends StatelessWidget {
   const AnsvkApp({super.key});

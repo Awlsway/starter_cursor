@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import '../tokens/design_tokens.dart';
+import 'package:flutter_ansvk_starter/ui/tokens/design_tokens.dart';
 
 final ThemeData appTheme = ThemeData(
   useMaterial3: true,
