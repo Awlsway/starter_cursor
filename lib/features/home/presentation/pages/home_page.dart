@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
 import 'package:flutter_ansvk_starter/ui/components/components.dart';
 import 'package:flutter_ansvk_starter/ui/tokens/design_tokens.dart';
 
@@ -78,6 +79,11 @@ class HomePage extends StatelessWidget {
                       onPressed: () {},
                     ),
                     AppButton(
+                      label: 'Open feature template',
+                      variant: AppButtonVariant.secondary,
+                      onPressed: () => context.push('/inventory/items'),
+                    ),
+                    AppButton(
                       label: 'Open Dialog',
                       variant: AppButtonVariant.text,
                       onPressed: () async {
@@ -92,8 +98,10 @@ class HomePage extends StatelessWidget {
 
                         if (!context.mounted) return;
                         if (confirmed == true) {
-                          ScaffoldMessenger.of(context).showSnackBar(
-                            const SnackBar(content: Text('Confirmed')),
+                          AppSnackbar.show(
+                            context,
+                            message: 'Confirmed',
+                            type: AppSnackbarType.success,
                           );
                         }
                       },

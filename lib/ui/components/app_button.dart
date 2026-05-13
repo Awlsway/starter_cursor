@@ -74,17 +74,17 @@ class AppButton extends StatelessWidget {
   ButtonStyle _styleFor(AppButtonVariant v, AppButtonSize s) {
     final EdgeInsetsGeometry padding = switch (s) {
       AppButtonSize.sm => const EdgeInsets.symmetric(
-        horizontal: AppTokens.spaceMd,
-        vertical: AppTokens.spaceSm,
-      ),
+          horizontal: AppTokens.spaceMd,
+          vertical: AppTokens.spaceSm,
+        ),
       AppButtonSize.md => const EdgeInsets.symmetric(
-        horizontal: AppTokens.spaceLg,
-        vertical: AppTokens.spaceSm,
-      ),
+          horizontal: AppTokens.spaceLg,
+          vertical: AppTokens.spaceSm,
+        ),
       AppButtonSize.lg => const EdgeInsets.symmetric(
-        horizontal: AppTokens.spaceXl,
-        vertical: AppTokens.spaceMd,
-      ),
+          horizontal: AppTokens.spaceXl,
+          vertical: AppTokens.spaceMd,
+        ),
     };
 
     return ElevatedButton.styleFrom(

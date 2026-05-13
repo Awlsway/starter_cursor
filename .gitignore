@@ -26,6 +26,7 @@ migrate_working_dir/
 .packages
 .pub/
 /build/
+/coverage/
 
 # Generated lockfiles policy:
 # Keep pubspec.lock for apps; remove this line if you prefer not committing it.

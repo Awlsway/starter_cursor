@@ -27,7 +27,21 @@ docs/
 2. Run `flutter pub get`.
 3. Start from `lib/main.dart`.
 4. Add your first feature under `lib/features/`.
+5. For new projects, run `scripts/bootstrap.ps1` (see `docs/quickstart.md`).
+
+## Token pipeline
+- Token source file: `tokens/design_tokens.light.json`
+- Generator script: `tool/generate_tokens.dart`
+- Generated output: `lib/ui/tokens/design_tokens.dart`
+- Regenerate after token updates:
+  - `dart run tool/generate_tokens.dart`
 
 ## Notes
 - This template is designed for solo development on one PC.
 - Keep DB token governance and UI contracts in sync with implementation.
+- New project bootstrap script: `scripts/bootstrap.ps1`.
+
+## CI checks
+- `dart format --output=none --set-exit-if-changed .`
+- `flutter analyze`
+- `flutter test --coverage`

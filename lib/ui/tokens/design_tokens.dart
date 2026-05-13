@@ -1,10 +1,9 @@
 import 'package:flutter/material.dart';
 
+// GENERATED FILE - DO NOT EDIT BY HAND.
+// Run: dart run tool/generate_tokens.dart
 class AppTokens {
   const AppTokens._();
-
-  // Brief: placeholder generated token output structure.
-  // Replace values via DB-to-code generation pipeline.
 
   static const Color colorBgApp = Color(0xFFF8FAFC);
   static const Color colorSurface = Color(0xFFFFFFFF);
@@ -25,7 +24,6 @@ class AppTokens {
   static const double radiusSm = 4.0;
   static const double radiusMd = 8.0;
   static const double radiusLg = 16.0;
-
   static const double textButtonSize = 14.0;
   static const double textBodySize = 14.0;
   static const double textBodyLineHeight = 1.5;
