@@ -28,6 +28,7 @@ docs/
 3. Start from `lib/main.dart`.
 4. Add your first feature under `lib/features/`.
 5. For new projects, run `scripts/bootstrap.ps1` (see `docs/quickstart.md`).
+6. For new AI agents, read `AGENTS.md` and `docs/agent-context.md`.
 
 ## Token pipeline
 - Token source file: `tokens/design_tokens.light.json`
